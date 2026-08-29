@@ -1,0 +1,30 @@
+{
+  "name": "tic-tac-toe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "node --dns-result-order=ipv4first backend/server.js"
+  },
+  "dependencies": {
+    "@roboflow/inference-sdk": "^0.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lucide-react": "^1.31.0",
+    "multer": "^2.2.0",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.3.3",
+    "undici": "^8.10.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
