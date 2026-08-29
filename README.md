@@ -24,33 +24,52 @@ A computer-vision-powered Tic-Tac-Toe application that detects the board, cells 
 
 ## How It Works
 Image / Webcam
+
       ↓
+
 AI Object Detection
+
       ↓
+
 Board & Cell Detection
+
       ↓
+
 X / O Detection
+
       ↓
+
 3×3 Board Reconstruction
+
       ↓
+
 Game Logic
+
       ↓
+
 Game Status
 
 ## How To Get Started
 **1. Clone the repository:**
+
 git clone https://github.com/awahib480/tic-tac-toe
+
 cd tic-tac-toe
 
 **2. Install dependencies**
+
 npm install
+
 Install dependencies separately inside the frontend and backend if required by the project structure.
 
 **3. Configure environment variables**
+
 Create a .env file in the backend:
+
 ROBOFLOW_API_KEY=your_api_key
 
 **4. Run the application**
+
 Start the backend and frontend separately, then open the provided local URL in your browser.
 
 ## Vision Meets Game Logic
