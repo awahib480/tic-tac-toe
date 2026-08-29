@@ -74,4 +74,5 @@ Start the backend and frontend separately, then open the provided local URL in y
 
 ## Vision Meets Game Logic
 This project combines computer vision + real-time processing + game-state reasoning to turn a physical Tic-Tac-Toe board into an interactive AI experience.
-Built as a Computer Vision & AI project.
+
+**Built as a Computer Vision & AI project.**
